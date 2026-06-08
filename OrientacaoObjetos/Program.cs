@@ -9,7 +9,10 @@ using OrientacaoObjetos.Entidade;
    - private -> acessivel apenas dentro da própria classe.
    - prtected -> acessivel na propria classe e em classes filhas (quando houver herança)
   
-
+   Getters e Setters são formas de acessar e modificar os valores de atributos de uma classe de maneira controlada.
+     - O getter (get) ´é responsavel por retoinrar o valor de um atributo.
+     - O seter (get) é usado paar definir um novo valor paar esse atributo.
+   Eles ajudam a proteger os dados e permitem aplkicar regras, como nãoa ceitar valores negativos por exemplo
  */
 
 ContaBancaria conta = new ContaBancaria();

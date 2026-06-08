@@ -11,7 +11,7 @@ namespace OrientacaoObjetos.Entidade
         public string Titular;
         public string Numero;
         public string Agencia;
-        private double Saldo;
+        public double Saldo { get; private set; };
 
         public void Depositar(double valor)
         {
