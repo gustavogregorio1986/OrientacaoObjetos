@@ -9,9 +9,7 @@ namespace OrientacaoObjetos.Entidade
     public class ContaBancaria
     {
         public string Titular;
-        public string Numero
-            
-            ;
+        public string Numero;
         public string Agencia;
         public double Saldo;
 
